@@ -1,0 +1,35 @@
+digraph G {
+  "new";
+  "worlds";
+  "explore";
+  "and";
+  "to";
+  "civilizations";
+  "seek";
+  "life";
+  "strange";
+  "out";
+  "new" -> "worlds" [label="1",color="black"];
+  "new" -> "civilizations" [label="1",color="red"];
+  "new" -> "civilizations" [label="1",color="brown"];
+  "new" -> "life" [label="1",color="blue"];
+  "new" -> "life" [label="1",color="green"];
+  "worlds" -> "to" [label="1",color="black"];
+  "explore" -> "strange" [label="1",color="red"];
+  "explore" -> "strange" [label="1",color="blue"];
+  "and" -> "new" [label="1",color="black"];
+  "to" -> "explore" [label="1",color="red"];
+  "to" -> "explore" [label="1",color="blue"];
+  "to" -> "seek" [label="1",color="brown"];
+  "to" -> "seek" [label="1",color="green"];
+  "civilizations" -> "and" [label="1",color="red"];
+  "civilizations" -> "and" [label="1",color="brown"];
+  "seek" -> "out" [label="1",color="brown"];
+  "seek" -> "out" [label="1",color="green"];
+  "life" -> "and" [label="1",color="blue"];
+  "life" -> "and" [label="1",color="green"];
+  "strange" -> "new" [label="1",color="red"];
+  "strange" -> "new" [label="1",color="blue"];
+  "out" -> "new" [label="1",color="brown"];
+  "out" -> "new" [label="1",color="green"];
+}
